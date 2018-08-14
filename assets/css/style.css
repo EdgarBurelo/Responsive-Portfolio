@@ -50,6 +50,7 @@ a:active {
 .header {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    margin-bottom: 40px; 
     
 }
 
@@ -112,7 +113,69 @@ li.border1{
     
 }
 
+.content {
+    flex: 1 0 auto;
+    padding: 0 10px;
 
+}
+
+.footer {
+    background-color: #666666;
+    flex-shrink: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.upFooter{
+    background-color: #4aaaa5;
+    height: 7px;
+}
+
+.downFooter {
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contentContainer {
+    height: auto;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #777777;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+
+}
+
+.contetHeadding {
+    color: #4aaaa5;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+hr {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-bottom: 30px;
+}
+
+.godDog {
+    float: left;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.paraG {
+    line-height: 2;
+    margin-bottom: 15px;
+}
 
 @media only screen and (min-width: 641px) {
     /* For tablets: */
@@ -133,7 +196,22 @@ li.border1{
     ul.hedul{        
         float: right;
    
-     }
+    }
+
+     .navbar {
+        padding: 0 20px;
+    }
+    
+    .content {
+        padding: 0 20px;
+    
+    }
+
+    .godDog {
+        height: auto;
+        width: 50%;
+
+    }
 
 }
 
@@ -154,6 +232,11 @@ li.border1{
 
     .offset {
         padding: 5px;
+    }
+
+    .godDog {
+        height: auto;
+        width: 30%;
     }
 
 }
