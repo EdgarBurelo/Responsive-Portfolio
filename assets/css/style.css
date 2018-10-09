@@ -45,6 +45,7 @@ a:active {
 
 .onIt {
     background: #cccccc;
+
 }
 
 .header {
@@ -220,6 +221,8 @@ textarea{
     color: #ffffff;
     font-size: 1em;
     opacity: 0.9;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .btnSubmit:hover {
@@ -237,11 +240,16 @@ textarea{
     top: 65%;
 }
 
+.textContainer:visited {
+    color: #ffffff;
+}
+
 .imgContainer {
     display: inline-block;
     position: relative;
     background-size: contain;
     margin: 0 auto 20px auto;
+    cursor: pointer;
 }
 
 .imgContainer:after {
@@ -276,6 +284,50 @@ textarea{
     background-size: contain;
 }
 
+.img6 {
+    background: url(../images/githubLogo.svg) no-repeat;
+    background-size: contain;
+}
+
+.img7 {
+    background: url(../images/LinkedIn.png) no-repeat;
+    background-size: contain;
+}
+
+.textContainer2 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 7.5px 0;
+    opacity: .9;
+    top: 100%;
+    cursor: pointer;
+    
+}
+
+.textContainer2:visited {
+    color: #ffffff;
+}
+
+.textContainer3 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 7.5px 0;
+    opacity: .9;
+    top: 25%;
+    cursor: pointer;
+    
+}
+
+.textContainer3:visited {
+    color: #ffffff;
+}
+
 @media only screen and (min-width: 641px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -308,7 +360,7 @@ textarea{
 
     .godDog {
         height: auto;
-        width: 50%;
+        width: 40%;
 
     }
 
